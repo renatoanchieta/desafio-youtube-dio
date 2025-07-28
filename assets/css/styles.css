@@ -10,24 +10,216 @@ body {
   color: #F9F9F9;
 }
 
+h1 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 1.25rem;  
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 0.875rem;  
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: black;
+}
+
 .top-bar {
   color: #fff;
-  height: 56px;
+  height: 3.5rem;
   width: 100vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
   justify-content: space-between;
 }
 
 .itens-left {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .itens-right {
   display: flex;
-  gap: 24px;
+  gap: 1.5rem;
+}
+
+.search-box {
+  display: flex;
+  border: 1px solid #ccc;
+  width: 25rem;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  border-left: 1px solid #ccc;
+}
+
+.search-box button img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5625rem;
+  margin-top: 1.75rem;
+  justify-content: space-evenly;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 59.5rem;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  width: 23.25rem;
+  gap: 1rem;
+}
+
+.interaction {
+  display: flex;
+  flex-direction: row;
+  width: 56.375rem;
+  gap: 2.625rem;
+  white-space: nowrap;
+}
+
+.chanel-info {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  width: 10rem;
+}
+
+.chanel-info p {
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 14px;  
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #515151;
+}
+
+.chanel-info-text {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.button-inscribe button {
+  width: 9.937rem;
+  height: 2.5rem;
+  top: 1px;
+  left: 12.625rem;
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 2px;  
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+
+#button-text {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 0.875rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.like {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dislike {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.share {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.description {
+  width: 31.875rem;
+  height: 4rem;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #515151;
+}
+
+.video-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.video-description img {
+  width: 10rem;
+  height: 5.625rem;
+}
+
+.text-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.text-right p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;  
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #515151;
 }
